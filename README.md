@@ -1,5 +1,9 @@
 General Weighted Average Calculator
+
+
 This project is a simple calculator that helps you compute your General Weighted Average (GWA) based on your grades and their corresponding weights (units or credit hours). It’s perfect for students or anyone who wants to find a weighted average easily.
+
+
 
 
 How to Use
