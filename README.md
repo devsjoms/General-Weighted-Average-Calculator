@@ -1,199 +1,80 @@
-# GWA Calculator
+# 📊 General Weighted Average (GWA) Calculator
 
-A simple and modern **General Weighted Average (GWA) Calculator** built with **Python** and **CustomTkinter**.
+A simple command-line **General Weighted Average (GWA) Calculator** built with Python. This application calculates a student's General Weighted Average based on the grades and corresponding units of each course.
 
-The application allows students to enter their subjects, units, and grades, then automatically calculates their weighted GWA.
+## ✨ Features
 
-## Features
+* 📚 Input multiple courses
+* 📝 Enter course code, units, and grade
+* 🧮 Automatically computes the General Weighted Average (GWA)
+* ⚡ Fast and lightweight command-line application
+* 🐍 Beginner-friendly Python project
 
-* Modern desktop UI using CustomTkinter
-* Dark Mode and Light Mode
-* Supports up to **12 subjects**
-* Dynamic subject input fields
-* Course name, units, and grade inputs
-* Input validation and error handling
-* Weighted GWA calculation
-* Total subjects and total units display
-* Scrollable subject list
-* Calculate Again / Reset functionality
-* Easy dependency installation using `requirements.txt`
+---
 
-## Technologies Used
+## 🛠️ Built With
 
-* **Python**
-* **CustomTkinter**
-* **Tkinter**
+* Python 3
 
-## Project Structure
+---
+
+## 🚀 Getting Started
+
+### Clone the repository
+
+```bash
+git clone https://github.com/devsjoms/General-Weighted-Average-Computer.git
+```
+
+### Navigate to the project folder
+
+```bash
+cd General-Weighted-Average-Computer
+```
+
+### Run the program
+
+```bash
+python gwa_calculator.py
+```
+
+> Replace `gwa_calculator.py` with your actual Python filename if it is different.
+
+---
+
+## 📖 How to Use
+
+1. Run the program.
+2. Enter the total number of courses.
+3. For each course, provide:
+
+   * Course Code
+   * Number of Units
+   * Grade
+4. After all courses have been entered, the program will display your computed **General Weighted Average (GWA)**.
+
+---
+
+## 🧮 Formula Used
 
 ```text
-GWA-Calculator/
+GWA = Σ (Grade × Units) / Σ Units
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+General-Weighted-Average-Computer/
 │
-├── main.py
-├── requirements.txt
-├── setup.bat
+├── gwa_calculator.py
 └── README.md
 ```
 
-## Installation
 
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/your-username/gwa-calculator.git
-```
-
-### 2. Open the project folder
-
-```bash
-cd gwa-calculator
-```
-
-### 3. Install the required libraries
-
-```bash
-pip install -r requirements.txt
-```
-
-### 4. Run the application
-
-```bash
-python main.py
-```
-
-## Quick Setup for Windows
-
-If the project includes `setup.bat`, you can simply double-click it.
-
-It will:
-
-1. Install the required dependencies.
-2. Start the GWA Calculator.
-
-Or run it from the terminal:
-
-```bash
-setup.bat
-```
-
-## How to Use
-
-### Step 1 — Enter Number of Subjects
-
-Enter the number of subjects you want to calculate.
-
-The application supports:
-
-```text
-1 - 12 subjects
-```
-
-### Step 2 — Enter Subject Information
-
-For each subject, enter:
-
-* Course Name
-* Number of Units
-* Grade
-
-Example:
-
-```text
-Course Name: IT101
-Units: 3
-Grade: 1.50
-```
-
-### Step 3 — Calculate
-
-Click **Calculate GWA**.
-
-The application calculates the weighted average using:
-
-```text
-GWA = Σ(Grade × Units) / Σ(Units)
-```
-
-### Example
-
-Given:
-
-| Course | Units | Grade |
-| ------ | ----: | ----: |
-| IT101  |     3 |  1.50 |
-| IT102  |     3 |  1.75 |
-| IT103  |     3 |  2.00 |
-
-The application calculates the GWA based on the total weighted grades and total units.
-
-## Input Validation
-
-The application checks for invalid inputs such as:
-
-* Empty fields
-* Invalid number of subjects
-* More than 12 subjects
-* Zero or negative units
-* Invalid grade values
-* Non-numeric units
-* Non-numeric grades
-
-Grades must be within:
-
-```text
-1.00 - 5.00
-```
-
-## Requirements
-
-Python 3.9 or later is recommended.
-
-Install the required dependency with:
-
-```bash
-pip install -r requirements.txt
-```
-
-## Requirements File
-
-The project uses `requirements.txt` to manage external Python dependencies.
-
-```text
-customtkinter
-```
-
-## Future Improvements
-
-Possible improvements for future versions:
-
-* Save calculation history
-* Export results to PDF
-* Export results to CSV
-* Add semester management
-* Add GPA/GWA history
-* Add grade interpretation
-* Add customizable grading scales
-* Add application icon
-* Package the application as a standalone `.exe`
-
-## Purpose
-
-This project was created as a learning project to practice:
-
-* Python functions
-* Variables and data types
-* Loops
-* Conditional statements
-* Exception handling
-* Lists
-* User input validation
-* GUI development
-* Basic application structure
-
-## Author
+## 👨‍💻 Author
 
 **Jomar Naval**
 
-Aspiring Web Developer and Software Engineer
-
-Built with Python and CustomTkinter.
+If you found this project useful, consider giving it a **⭐ Star** on GitHub. It helps support future projects and motivates continued development.
