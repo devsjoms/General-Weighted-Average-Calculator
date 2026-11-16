@@ -40,7 +40,7 @@ GWA-Calculator/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/gwa-calculator.git
+git clone https://github.com/devsjoms/gwa-calculator.git
 ```
 
 ### 2. Open the project folder
