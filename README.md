@@ -60,22 +60,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-## Quick Setup for Windows
-
-If the project includes `setup.bat`, you can simply double-click it.
-
-It will:
-
-1. Install the required dependencies.
-2. Start the GWA Calculator.
-
-Or run it from the terminal:
-
-```bash
-setup.bat
-```
-
 ## How to Use
 
 ### Step 1 — Enter Number of Subjects
